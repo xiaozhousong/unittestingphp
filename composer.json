@@ -1,0 +1,25 @@
+{
+    "name": "kofi.richardson/tddtask",
+    "description": "LottoMachine in PHP",
+    "type": "project",
+    "require": {
+        "symfony/console": "^3.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.0"
+    },
+    "license": "private",
+    "authors": [
+        {
+            "name": "Kofi Richardsdon",
+            "email": "kofi.richardson@g2sltd.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "": "src/" }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev"
+}
